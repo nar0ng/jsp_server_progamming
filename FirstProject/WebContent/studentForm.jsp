@@ -12,11 +12,12 @@
 	<form action="studentPro.jsp" method="get">
 		이름 : <input type="text" name="name"><p>
 		전번 : <input type="password" name="num"><p>
-		전공 : <select name="majors" multiple>
-		        <option>IT미디어공학</option>
-		        <option>컴퓨터공학</option>
-		        <option>국어국문학</option>
-		        <option>약학</option>
+		전공 : <select name="majors" multiple> 
+		<!--multiple 다중 선택 가능  -->
+		       <option>소프트웨어</option>
+		       <option>컴퓨터공학</option>
+		       <option>국어국문학</option>
+		       <option>약학</option>
 		      </select><p>
 		취미 : <input type="checkbox" name="hobbies" value="ski">스키
 			 <input type="checkbox" name="hobbies" value="inline">인라인
